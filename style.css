@@ -174,3 +174,16 @@ body {
 .descr:last-child {
   padding-bottom: 0;
 }
+
+.link {
+  display: block;
+  color: #f1c40f;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  outline: none;
+  color: #eeeeee;
+}
