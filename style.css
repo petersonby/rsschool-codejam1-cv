@@ -175,8 +175,14 @@ body {
   padding-bottom: 0;
 }
 
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 .link {
-  display: block;
   color: #f1c40f;
   margin-bottom: 10px;
   text-decoration: none;
