@@ -189,6 +189,10 @@ body {
   text-decoration: none;
 }
 
+.link:last-child {
+  margin-bottom: 0;
+}
+
 .link:hover,
 .link:focus {
   outline: none;
