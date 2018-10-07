@@ -26,6 +26,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .menu {
@@ -192,4 +193,22 @@ body {
 .link:focus {
   outline: none;
   color: #eeeeee;
+}
+
+@media screen and (max-width: 1044px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+
+  .header {
+    height: auto;
+  }
+
+  .menu {
+    padding: 20px 0;
+  }
+
+  .title {
+    margin-bottom: 45px;
+  }
 }
