@@ -108,7 +108,7 @@ body {
 .title {
   padding: 0;
   margin: 0;
-  margin-bottom: 45px;
+  margin-bottom: 90px;
   font-family: 'Muli', 'Arial', sans-serif;
   font-weight: 900;
   color: #ffffff;
@@ -127,13 +127,14 @@ body {
 
 .subtitle {
   margin-top: 40px;
+  margin-bottom: 30px;
   font-weight: 600;
   font-size: 1.5em;
   color: #f1c40f;
 }
 
 .subtitle::after {
-  background-color: #fff;
+  display: none;
 }
 
 .main__title {
